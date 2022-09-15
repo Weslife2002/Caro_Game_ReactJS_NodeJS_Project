@@ -1,0 +1,43 @@
+.container {
+    max-width: 100%;
+}
+
+.description {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.board-container {
+    border: rgba(128, 128, 128, 0.4) 0.5px solid;
+    aspect-ratio: 1/1;
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.board-row {
+    display: flex;
+    flex: 1;
+}
+
+.board-cell {
+    border: rgba(128, 128, 128, 0.4) 0.5px solid;
+    flex: 1;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.board-cell:hover {
+    border: rgba(128, 0, 0, 1) 0.5px solid;
+
+}
+
+.o-cell {
+    color: blue;
+}
+
+.x-cell {
+    color: red;
+}
